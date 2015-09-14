@@ -1,0 +1,25 @@
+{
+  "name": "ava7.eu",
+  "version": "0.2.0",
+  "homepage": "www.ava7.eu",
+  "authors": [
+    "Ava <avalanche_1991@hotmail.com>"
+  ],
+  "description": "My web-page",
+  "main": "index.php",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "components-font-awesome": "~4.4.0",
+    "normalize-css": "normalize.css#~3.0.3"
+  }
+}
