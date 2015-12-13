@@ -10,7 +10,7 @@ gulp.task('css', function() {
             './assets/css/app.css',
         ]).pipe(minifyCss())
         .pipe(concat('style.css'))
-        .pipe(gulp.dest('public/'))
+        .pipe(gulp.dest('public/css/'))
 })
 
 gulp.task('fonts', function() {

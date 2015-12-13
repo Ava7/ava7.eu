@@ -1,26 +1,57 @@
 body {
-    background-color: #00966E
+    background: url('../img/bg.jpg') repeat;
+    background-size: cover;
 }
 
-a { color: #fff; transition: all 0.5s linear; text-decoration: none }
-a:hover { color: #ff0000; }
+a {
+    color: #000;
+    transition: all 0.5s linear;
+    text-decoration: none
+}
 
-nav { width: 70%; margin: 10% auto 0 auto; }
+a:hover {
+    color: #ff0000;
+}
+
+nav {
+    position: relative;
+    margin: 20% auto 0 auto;
+    color: #fff;
+    text-align: center;
+}
 
 nav ul {
     list-style: none
 }
 
-nav ul ul {
-    opacity: 0;
+nav ul li {
     display: inline-block;
-    padding: 0;
-    position: absolute;
-    z-index: 2;
-    transition: all .3s ease .15s;
+    margin: 0 10px;
 }
 
-nav ul li:hover > ul {
-    opacity: 1;
-    transform: translate(2em, 0);
+.fa-stack-overflow {
+    color: #F48024;
+    transition: all 0.5s linear;
+}
+.fa-stack-overflow:hover {
+    color: #ff0000
+}
+
+.fa-linkedin-square {
+    color: #1884BC;
+    transition: all 0.5s linear;
+}
+.fa-linkedin-square:hover {
+    color: #ff0000
+}
+
+@media screen and (orientation:portrait) {
+    body {
+        background: url('img/bg.jpg') top center repeat;
+        background-size: auto;
+    }
+
+    nav {
+        margin: 50% auto 0 auto;
+    }
 }
